@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC15769D1DC0445F00FA4944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC15769C1DC0445F00FA4944 /* AppDelegate.swift */; };
+		BC15769F1DC0445F00FA4944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC15769E1DC0445F00FA4944 /* Assets.xcassets */; };
+		BC1576A21DC0445F00FA4944 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1576A01DC0445F00FA4944 /* MainMenu.xib */; };
+		BC1576B01DC0461900FA4944 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1576AF1DC0461900FA4944 /* Cocoa.framework */; };
+		BC1576B51DC0461900FA4944 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1576B41DC0461900FA4944 /* SourceEditorExtension.swift */; };
+		BC1576B71DC0461900FA4944 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1576B61DC0461900FA4944 /* SourceEditorCommand.swift */; };
+		BC1576BB1DC0461900FA4944 /* ConvertCase.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC1576AD1DC0461900FA4944 /* ConvertCase.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1576B91DC0461900FA4944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1576911DC0445F00FA4944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1576AC1DC0461900FA4944;
+			remoteInfo = ConvertCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC1576BF1DC0461900FA4944 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC1576BB1DC0461900FA4944 /* ConvertCase.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC1576991DC0445F00FA4944 /* MGConvertCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGConvertCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC15769C1DC0445F00FA4944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC15769E1DC0445F00FA4944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC1576A11DC0445F00FA4944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC1576A31DC0445F00FA4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1576AD1DC0461900FA4944 /* ConvertCase.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ConvertCase.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1576AF1DC0461900FA4944 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC1576B31DC0461900FA4944 /* ConvertCase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConvertCase.entitlements; sourceTree = "<group>"; };
+		BC1576B41DC0461900FA4944 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		BC1576B61DC0461900FA4944 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		BC1576B81DC0461900FA4944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1576961DC0445F00FA4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1576AA1DC0461900FA4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1576B01DC0461900FA4944 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1576901DC0445F00FA4944 = {
+			isa = PBXGroup;
+			children = (
+				BC15769B1DC0445F00FA4944 /* MGConvertCase */,
+				BC1576B11DC0461900FA4944 /* ConvertCase */,
+				BC1576AE1DC0461900FA4944 /* Frameworks */,
+				BC15769A1DC0445F00FA4944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC15769A1DC0445F00FA4944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1576991DC0445F00FA4944 /* MGConvertCase.app */,
+				BC1576AD1DC0461900FA4944 /* ConvertCase.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC15769B1DC0445F00FA4944 /* MGConvertCase */ = {
+			isa = PBXGroup;
+			children = (
+				BC15769C1DC0445F00FA4944 /* AppDelegate.swift */,
+				BC15769E1DC0445F00FA4944 /* Assets.xcassets */,
+				BC1576A01DC0445F00FA4944 /* MainMenu.xib */,
+				BC1576A31DC0445F00FA4944 /* Info.plist */,
+			);
+			path = MGConvertCase;
+			sourceTree = "<group>";
+		};
+		BC1576AE1DC0461900FA4944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1576AF1DC0461900FA4944 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1576B11DC0461900FA4944 /* ConvertCase */ = {
+			isa = PBXGroup;
+			children = (
+				BC1576B41DC0461900FA4944 /* SourceEditorExtension.swift */,
+				BC1576B61DC0461900FA4944 /* SourceEditorCommand.swift */,
+				BC1576B81DC0461900FA4944 /* Info.plist */,
+				BC1576B21DC0461900FA4944 /* Supporting Files */,
+			);
+			path = ConvertCase;
+			sourceTree = "<group>";
+		};
+		BC1576B21DC0461900FA4944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1576B31DC0461900FA4944 /* ConvertCase.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1576981DC0445F00FA4944 /* MGConvertCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1576A61DC0445F00FA4944 /* Build configuration list for PBXNativeTarget "MGConvertCase" */;
+			buildPhases = (
+				BC1576951DC0445F00FA4944 /* Sources */,
+				BC1576961DC0445F00FA4944 /* Frameworks */,
+				BC1576971DC0445F00FA4944 /* Resources */,
+				BC1576BF1DC0461900FA4944 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1576BA1DC0461900FA4944 /* PBXTargetDependency */,
+			);
+			name = MGConvertCase;
+			productName = MGConvertCase;
+			productReference = BC1576991DC0445F00FA4944 /* MGConvertCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1576AC1DC0461900FA4944 /* ConvertCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1576BC1DC0461900FA4944 /* Build configuration list for PBXNativeTarget "ConvertCase" */;
+			buildPhases = (
+				BC1576A91DC0461900FA4944 /* Sources */,
+				BC1576AA1DC0461900FA4944 /* Frameworks */,
+				BC1576AB1DC0461900FA4944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertCase;
+			productName = ConvertCase;
+			productReference = BC1576AD1DC0461900FA4944 /* ConvertCase.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1576911DC0445F00FA4944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tuan Truong";
+				TargetAttributes = {
+					BC1576981DC0445F00FA4944 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NN74NJ78BB;
+						ProvisioningStyle = Automatic;
+					};
+					BC1576AC1DC0461900FA4944 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NN74NJ78BB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC1576941DC0445F00FA4944 /* Build configuration list for PBXProject "MGConvertCase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1576901DC0445F00FA4944;
+			productRefGroup = BC15769A1DC0445F00FA4944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1576981DC0445F00FA4944 /* MGConvertCase */,
+				BC1576AC1DC0461900FA4944 /* ConvertCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1576971DC0445F00FA4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15769F1DC0445F00FA4944 /* Assets.xcassets in Resources */,
+				BC1576A21DC0445F00FA4944 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1576AB1DC0461900FA4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1576951DC0445F00FA4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15769D1DC0445F00FA4944 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1576A91DC0461900FA4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1576B51DC0461900FA4944 /* SourceEditorExtension.swift in Sources */,
+				BC1576B71DC0461900FA4944 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1576BA1DC0461900FA4944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1576AC1DC0461900FA4944 /* ConvertCase */;
+			targetProxy = BC1576B91DC0461900FA4944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1576A01DC0445F00FA4944 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1576A11DC0445F00FA4944 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1576A41DC0445F00FA4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1576A51DC0445F00FA4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BC1576A71DC0445F00FA4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NN74NJ78BB;
+				INFOPLIST_FILE = MGConvertCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = truong.tuan.MGConvertCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC1576A81DC0445F00FA4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NN74NJ78BB;
+				INFOPLIST_FILE = MGConvertCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = truong.tuan.MGConvertCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC1576BD1DC0461900FA4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ConvertCase/ConvertCase.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NN74NJ78BB;
+				INFOPLIST_FILE = ConvertCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = truong.tuan.MGConvertCase.ConvertCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC1576BE1DC0461900FA4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ConvertCase/ConvertCase.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NN74NJ78BB;
+				INFOPLIST_FILE = ConvertCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = truong.tuan.MGConvertCase.ConvertCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1576941DC0445F00FA4944 /* Build configuration list for PBXProject "MGConvertCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1576A41DC0445F00FA4944 /* Debug */,
+				BC1576A51DC0445F00FA4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1576A61DC0445F00FA4944 /* Build configuration list for PBXNativeTarget "MGConvertCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1576A71DC0445F00FA4944 /* Debug */,
+				BC1576A81DC0445F00FA4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC1576BC1DC0461900FA4944 /* Build configuration list for PBXNativeTarget "ConvertCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1576BD1DC0461900FA4944 /* Debug */,
+				BC1576BE1DC0461900FA4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1576911DC0445F00FA4944 /* Project object */;
+}
